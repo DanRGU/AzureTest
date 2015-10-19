@@ -16,7 +16,7 @@
                 while($count1 > 0 || $count2 > 0 || $count3 > 0){
                 $i++;
                 $todaysGood = rand(0,2);
-
+                    echo $count1 . $count2 . $count3;
 
                 if ($todaysGood == 0) {
                     $count1--;
@@ -32,7 +32,7 @@
 
                 }
                 }
-                print "No more goods are available this month ";
+                print "No more goods are available this month  ";
 
 
                 ?>
