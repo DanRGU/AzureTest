@@ -11,7 +11,7 @@
                 $nameArray = array("Ruairi","Dan","Mike","Bob","Fred","Charles","Henry","Dick","Chris","Jim");
                 sort($nameArray);
 
-                for($j = 1; $j <3; $j++){
+                for($j = 0; $j <3; $j++){
 
                 print join(", ",$nameArray);
                 $i = rand(0,9);
