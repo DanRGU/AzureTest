@@ -8,19 +8,17 @@
             <p>
                 <?php
 
-                $nameArray = array("Ruairi","Dan","Mike","Bob","Fred","Charles","Henry","Dick","Chris","Jim");
-                sort($nameArray);
-
-                for($j = 0; $j <3; $j++){
-
-                print "<p>" . join(", ",$nameArray) . "</p>";
-                $i = rand(0,9);
-                print strtoupper ($nameArray[$i]);
-                unset($nameArray[$i]);
-                print join(", ",$nameArray);
-
+                function wanted($name, $specs, $mugs, $rolls){
+                    $award = (10*($specs * $mugs * $rolls))/2;
+                    print "<p>" . "Wanted : " . $name . "</p>";
+                    print "<p>" . "Known to be in possesion of : "  . "</p>";
+                    print "<p>" . "Specs : " . $specs . "</p>";
+                    print "<p>" . "Mugs : " . $mugs . "</p>";
+                    print "<p>" . "SGR : " . $rolls . "</p>";
+                    print "<p>" . "Award : " . $award . "</p>";
                 }
 
+                wanted("Bob", 2,2,2);
 
                 ?>
             </p>
