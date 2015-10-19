@@ -18,15 +18,15 @@
                 $todaysGood = rand(0,2);
 
 
-                if ($todaysGood == 1) {
+                if ($todaysGood == 0) {
                     $count1--;
                     print "On the " . $i . "of the month Specs are available";
 
-                } else if ($todaysGood == 2) {
+                } else if ($todaysGood == 1) {
                     $count2--;
                     print "On the " . $i . "of the month Mugs are available";
 
-                } else if ($todaysGood == 3) {
+                } else if ($todaysGood == 2) {
                     $count3--;
                     print "On the " . $i . "of the month SGROLLSSSSSSSSSS are available";
 
