@@ -8,14 +8,14 @@
             <p>
                 <?php
 
-                for ($i = 1; $i < 30; $i++) {
+                for ($i = 1; $i < 31; $i++) {
                     if ($i % 2) {
-                        print "On the " + $i + "of the month Specs are available";
+                        print "On the " . $i . "of the month Specs are available";
                     } else if ($i % 3) {
-                        print "On the " + $i + "of the month Mugs are available";
+                        print "On the " . $i . "of the month Mugs are available";
 
                     } else if ($i % 4) {
-                        print "On the " + $i + "of the month SGROLLSSSSSSSSSS are available";
+                        print "On the " . $i . "of the month SGROLLSSSSSSSSSS are available";
 
                     }
                 }
