@@ -13,8 +13,8 @@
                 sort($nameArray);
                 print join(", ",$nameArray);
                 $i = rand(0,9);
-                strtoupper ($nameArray[$i]);
-                print $nameArray[$i];
+               print strtoupper ($nameArray[$i]);
+
                 unset($nameArray[$i]);
                 print join(", ",$nameArray);
 
