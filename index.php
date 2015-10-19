@@ -32,7 +32,7 @@
 
                 }
                 }
-                print "No more goods are available this month";
+                print "No more goods are available this month ";
 
 
                 ?>
