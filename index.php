@@ -8,17 +8,24 @@
             <p>
                 <?php
 
-                   $myage = 17;
+                $wantedgood = "mugs";
 
-                if($myage > 16){
-                    print "can buy specs";
+
+                switch($wantedgood){
+                    case "specs":
+                        echo "You have to be 16 to buy specs.";
+                        break;
+                    case "mugs":
+                        echo "You have to be 18 to buy mugs";
+                        break;
+                    case "sgrlzm8swagmaster":
+                        echo "You have to be 21 to buy sgrlzm8swagmaster";
+                        break;
                 }
-                else if($myage > 18){
-                    print "can buy mugs";
-                }
-                else if($myage > 21){
-                    print "can buy sausage rolls";
-                }
+
+
+
+
                 ?>
             </p>
         </body>
