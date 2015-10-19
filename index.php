@@ -9,9 +9,10 @@
                 <?php
 
                 $nameArray = array("Ruairi","Dan","Mike","Bob","Fred","Charles","Henry","Dick","Chris","Jim");
-                print join(", ",$nameArray);
+                //print join(", ",$nameArray);
                 sort($nameArray);
-                print join(", ",$nameArray);
+                //print join(", ",$nameArray);
+                print $nameArray[rand(0,9)];
 
 
 
