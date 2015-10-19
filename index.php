@@ -13,7 +13,7 @@
                 $i = 1;
 
 
-                while($count1 > 0 || $count2 > 0 || $count3 > 0){
+                while($count1 >= 0 || $count2 >= 0 || $count3 >= 0){
                 $i++;
                 $todaysGood = rand(0,2);
                     echo $count1 . $count2 . $count3;
