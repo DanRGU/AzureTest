@@ -13,7 +13,7 @@
 
                 for($j = 0; $j <3; $j++){
 
-                print join(", ",$nameArray);
+                print "<p>" . join(", ",$nameArray) . "</p>";
                 $i = rand(0,9);
                 print strtoupper ($nameArray[$i]);
                 unset($nameArray[$i]);
