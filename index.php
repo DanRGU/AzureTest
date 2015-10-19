@@ -28,7 +28,7 @@
 
                 } else if ($todaysGood == 2) {
                     $count3--;
-                    print "<p>On the " . $i . "of the month SGROLLSSSSSSSSSS are available</p>";
+                    print "<p>On the " . $i . "of the month SGROLLSSSSSSSSSS are available.</p>";
 
                 }
                 }
