@@ -20,15 +20,15 @@
 
                 if ($todaysGood == 0) {
                     $count1--;
-                    print "On the " . $i . "of the month Specs are available";
+                    print "<p>On the " . $i . "of the month Specs are available</p>";
 
                 } else if ($todaysGood == 1) {
                     $count2--;
-                    print "On the " . $i . "of the month Mugs are available";
+                    print "<p>On the " . $i . "of the month Mugs are available</p>";
 
                 } else if ($todaysGood == 2) {
                     $count3--;
-                    print "On the " . $i . "of the month SGROLLSSSSSSSSSS are available";
+                    print "<p>On the " . $i . "of the month SGROLLSSSSSSSSSS are available</p>";
 
                 }
                 }
