@@ -17,7 +17,7 @@
                 $i++;
                 $todaysGood = rand(0,2);
 
-                }
+
                 if ($todaysGood == 1) {
                     $count1--;
                     print "On the " . $i . "of the month Specs are available";
@@ -31,7 +31,8 @@
                     print "On the " . $i . "of the month SGROLLSSSSSSSSSS are available";
 
                 }
-                print "No more goods are available this month"
+                }
+                print "No more goods are available this month";
 
 
                 ?>
