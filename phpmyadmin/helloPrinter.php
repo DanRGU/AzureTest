@@ -8,12 +8,8 @@
 <p>
     <?php
 
-    $query = $_GET["query"];
-    echo "Hello " . $query;
-
-
-
-
+        $query = $_GET["query"];
+        echo "Hello " . $query;
 
     ?>
 
