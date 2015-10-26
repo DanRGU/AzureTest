@@ -23,9 +23,7 @@
 
 
                 ?>
-                <a href="helloSelector.php">Earth</a>
-                <a href="helloSelector.php">Mars</a>
-                <a href="helloSelector.php">Uranus</a>
+                <a href="helloSelector.php">"Planet Selector"</a>
             </p>
         </body>
 

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<head>
+    <head>
 
 </head>
 <body>
@@ -11,7 +11,11 @@
         echo "Where would you like to say hello?";
 
     ?>
-    <a href="index.php">Uranus</a>
+
+    <a href="helloPrinter.php">"Earth"</a>
+    <a href="helloPrinter.php">"Mars"</a>
+    <a href="helloPrinter.php">"Uranus"</a>
+
 </p>
 </body>
 
