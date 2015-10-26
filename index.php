@@ -23,7 +23,7 @@
 
 
                 ?>
-                <a href="helloSelector.php"><Planet_Selector</a>
+                <a href="helloSelector.php">Planet Selector</a>
             </p>
         </body>
 
