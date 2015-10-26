@@ -21,7 +21,7 @@
                 if($db->connect_errno){
                     die('Connectfailed['.$db->connect_error.']');
                 }
-
+                else echo "Hello";
                 ?>
 
             </p>
