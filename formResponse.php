@@ -16,7 +16,7 @@
         $gender = $_POST["gender"];
         $superpowers = $_POST["superpowers"];
 
-        echo $forename . $surname . $dob . $superpowers . $gender;
+        echo "Forename: " . $forename . "Surename" . $surname . "Date of Birth: " . $dob . "Gender: " . $gender . "Superpowers: " . $superpowers;
 ?>
 
 
