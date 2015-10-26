@@ -20,9 +20,10 @@
 
                 wanted("Bob", 2,2,2);
 
-               // <a href="helloSelector.php""><Planet_Selector</a>
+
 
                 ?>
+                <a href="helloSelector.php"><Planet_Selector</a>
             </p>
         </body>
 
