@@ -10,13 +10,13 @@
 
 <?php
 
-        $forename = $_POST["forename"];
+        $Forename = $_POST["forename"];
         $surname = $_POST["surname"];
         $dob = $_POST["dob"];
         $gender = $_POST["gender"];
         $superpowers = $_POST["superpowers"];
 
-        echo $forename . $surname . $dob . $superpowers . $gender;
+        echo $Forename . $surname . $dob . $superpowers . $gender;
 ?>
 
 
