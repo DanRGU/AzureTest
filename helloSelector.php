@@ -12,9 +12,9 @@
 
     ?>
 
-    <a href="helloPrinter.php">"Earth"</a>
-    <a href="helloPrinter.php">"Mars"</a>
-    <a href="helloPrinter.php">"Uranus"</a>
+    <a href="http://danrgu.azurewebsites.net/helloPrinter.php?planet=earth">"Earth"</a>
+    <a href="http://danrgu.azurewebsites.net/helloPrinter.php?planet=Mars">"Mars"</a>
+    <a href="http://danrgu.azurewebsites.net/helloPrinter.php?planet=Uranus">"Uranus"</a>
 
 </p>
 </body>
