@@ -24,7 +24,7 @@
 
                 ?>
                 <a href="helloSelector.php">"Planet Selector"</a>
-                <a href="formResponse.php">"Form"</a>
+                <a href="form.php">"Form"</a>
             </p>
         </body>
 
