@@ -15,7 +15,7 @@
                     $db = new mysqli(
                         "br-cdbr-azure-south-a.cloudapp.net",
                         "b3d04eaaa95e7f",
-                        "6b2faa59",
+                        "6b2faa5",
                         "DanRGUDatabase"
                     );
                 if($db->connect_errno){
