@@ -11,7 +11,7 @@
 
         <label>Forename</label><input type="text" name="forename">
         <label>Surname</label><input type="text" name="surname">
-        <label>DOB</label><input type="int" name="dob">
+        <label>DOB</label><input type="text" name="dob">
         <label>Gender</label><input type="text" name="gender">
         <label>Superpowers</label><input type="text" name="superpowers">
 
