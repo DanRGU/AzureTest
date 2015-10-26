@@ -7,8 +7,8 @@
         <body>
             <p>
 
-                <a href="helloSelector.php">"Planet Selector"</a>
-                <a href="form.php">"Form"</a>
+                <!--<a href="helloSelector.php">"Planet Selector"</a>
+                <a href="form.php">"Form"</a> -->
 
                 <?php
 
