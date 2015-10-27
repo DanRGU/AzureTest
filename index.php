@@ -18,10 +18,22 @@
                         "6b2faa59",
                         "DanRGUDatabase"
                     );
+
                 if($db->connect_errno){
                     die('Connectfailed['.$db->connect_error.']');
                 }
-                else echo "Connection to database established.  Mad HAXXZORZ initiated.";
+                else echo "Connection to database established.";
+
+                $sql_query = "SELECT * FROM marvelMovies WHERE yearReleased LIKE '2010'";
+                $result = $db->query($sql_query);
+                while($row = $result->fetch_array()){
+                    echo "<p>" . $row['title'] . "</p>";
+                }
+
+                $result->close();
+                $db->close();
+
+
                 ?>
 
             </p>
