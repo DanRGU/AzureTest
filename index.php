@@ -24,7 +24,7 @@
                 }
                 else echo "Connection to database established.";
 
-                $sql_query = "SELECT * FROM marvelMovies WHERE yearReleased LIKE '2010'";
+                $sql_query = "SELECT * FROM marvelMovies WHERE yearReleased LIKE '2008'";
                 $result = $db->query($sql_query);
                 while($row = $result->fetch_array()){
                     echo "<p>" . $row['title'] . "</p>";
