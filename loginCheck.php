@@ -10,6 +10,7 @@
     <?php
     $username = "Dan";
     $password = "pass";
+    echo $_POST["username"];
 
     if($username == $_POST["username"] && $password == $_POST["password"]){
 
