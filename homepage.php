@@ -8,6 +8,11 @@
 <p>
 
     <?php
+    session_start();
+    $_SESSION = array();
+
+
+    echo "SESSIONS";
     $username = "Dan";
     $password = "pass";
 
@@ -41,7 +46,7 @@
 
     }
 
-
+    session_destroy();
     ?>
 
 

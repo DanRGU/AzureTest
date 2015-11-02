@@ -8,7 +8,7 @@
 <p>
 
     <?php
-    session_start();
+
     $username = "Dan";
     $password = "pass";
     # echo $_POST["username"];
