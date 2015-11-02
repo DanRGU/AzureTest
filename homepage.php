@@ -9,10 +9,8 @@
 
     <?php
     session_start();
-    $_SESSION = array();
 
-
-    echo "SESSIONS";
+    echo "<p>SESSIONS</p>";
     $username = "Dan";
     $password = "pass";
 
@@ -27,7 +25,7 @@
         echo "<p>Username or Password incorrect</p>";
     }
 
-    echo  $_SESSION['username'];
+    echo  "<p>" . $_SESSION['username'] . "</p>";
 
     $accessLevel = $_SESSION[access_level];
 
