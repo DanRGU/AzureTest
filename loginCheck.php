@@ -11,13 +11,17 @@
     $username = "Dan";
     $password = "pass";
 
-    if($username = $_POST["username"] && $password = $_POST["password"]);{
+    if($username == $_POST["username"] && $password == $_POST["password"]){
 
         setcookie('username', 'Dan');
         setcookie('access_level','standarduser');
         echo "Username and password correct";
-
     }
+    else {
+        echo "NO";
+    }
+
+
    ?>
 
 
