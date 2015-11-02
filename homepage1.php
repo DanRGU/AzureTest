@@ -8,22 +8,23 @@
 <p>
 
     <?php
+    session_start();
     $username = "Dan";
     $password = "pass";
+    # echo $_POST["username"];
 
     if($username == $_POST["username"] && $password == $_POST["password"]){
 
+        setcookie('username', 'Dan');
+        setcookie('access_level','standarduser');
         echo "Username and password correct";
-        $_SESSION['username'] = $_POST['username'];
-        $_SESSION['access_level'] = "standarduser";
-
     }
     else {
-        echo "Username or Password incorrect";
+        echo "NO";
     }
 
-    echo $_SESSION['username'];
-    $accessLevel = $_SESSION[access_level];
+    echo $_COOKIE['username'];
+    $accessLevel = $_COOKIE[access_level];
 
     displayAccessLevelInformation($accessLevel);
 
