@@ -19,10 +19,11 @@
 
     }
     else {
-        echo "Username or Password incorrect";
+        echo "<p>Username or Password incorrect</p>";
     }
 
-    echo $_SESSION['username'];
+    echo  $_SESSION['username'];
+
     $accessLevel = $_SESSION[access_level];
 
     displayAccessLevelInformation($accessLevel);
