@@ -22,10 +22,10 @@
 
     }
     else {
-        echo "<p>Username or Password incorrect</p>";
+        echo "<p>Username or Password incorrect.</p>";
     }
 
-    echo  "<p>" . $_SESSION['username'] . "</p>";
+    echo  "<p>Username is " . $_SESSION['username'] . "</p>";
 
     $accessLevel = $_SESSION[access_level];
 
