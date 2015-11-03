@@ -4,23 +4,20 @@
 <head>
 
 </head>
-<body>
-<p>
-<form action="homepage.php" method="post">
+    <body>
+        <p>
+            <form action="homepage.php" method="post">
 
-    <label>Username</label><input type="text" name="username">
-    <label>Password</label><input type="text" name="password">
+                <label>Username</label><input type="text" name="username">
+                <label>Password</label><input type="password" name="password">
 
-    <input type="submit" value="Submit">
+                <input type="submit" value="Submit">
 
-</form>
-
-    <?php
+            </form>
 
 
-    ?>
 
-</p>
-</body>
+        </p>
+    </body>
 
 </html>
