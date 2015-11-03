@@ -31,7 +31,7 @@
         echo "<p>Username is " . $_SESSION['username'] . "</p>";
     }
     else{
-        echo "<p>No Username yet. " . "</p>";
+        echo "<p>No Username yet.</p>";
     }
 
     $accessLevel = $_SESSION[access_level];

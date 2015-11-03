@@ -8,7 +8,7 @@
             <p>
 
 
-                <a href="login.php">"Form"</a>
+                <a href="login.php">"<p>Form</p>"</a>
 
                 <?php
 
@@ -22,7 +22,7 @@
                 if($db->connect_errno){
                     die('Connectfailed['.$db->connect_error.']');
                 }
-                else echo "Connection to database established.";
+                else echo "<p> Connection to database established.</p>";
 
                 $sql_query = "SELECT * FROM marvelMovies WHERE yearReleased LIKE '2008'";
                 $result = $db->query($sql_query);
