@@ -10,9 +10,9 @@
 
                 <label>Username</label><input type="text" name="username">
                 <label>Password</label><input type="password" name="password">
-            <button type="button" onclick=input type="submit" value="Submit">Log In</button>
+                <button type="submit" onclick=  value="Submit">Log In</button>
 
-                <!--<input type="submit" value="Submit">-->
+
 
             </form>
 
