@@ -4,17 +4,17 @@
 <head>
 </head>
 
-<body>
-<p>
+    <body>
+        <p>
 
 
-<?php
+            <?php
 
 
 
-?>
+            ?>
 
-</p>
-</body>
+        </p>
+    </body>
 
 </html>
