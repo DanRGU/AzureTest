@@ -33,7 +33,7 @@
                 $sql_query = "SELECT * FROM topics";
                 $result = $db->query($sql_query);
                 while($row = $result->fetch_array()){
-                    echo "<p>" . $row['title'] . "</p>";
+                    echo "<p>" . $row['topicName'] . "</p>";
                 }
 
                 $result->close();
