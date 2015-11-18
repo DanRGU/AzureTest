@@ -30,7 +30,7 @@
                 }
                 else echo "<p> Connection to database established.</p>";
 
-                $sql_query = "SELECT * FROM articletext WHERE textID='1'";
+                $sql_query = "SELECT * FROM articletext";
 
                 $result = $db->query($sql_query);
                 while($row = $result->fetch_array()){
