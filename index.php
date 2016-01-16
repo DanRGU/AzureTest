@@ -17,11 +17,17 @@
                     echo "$val<br />\n";
                 }
 
+                for($j = 0; $j < 5; $j++){
+                    echo $array[$j];
+                }
+
                 function newFunction($array){
                     for($i = 0; $i < 5; $i++){
                         $array[$i] = substr($array[$i], 0, 3);
                     }
                 }
+
+                echo " ";
 
                 newFunction($arr);
 
