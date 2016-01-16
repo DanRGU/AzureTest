@@ -21,9 +21,9 @@
                     echo $array[$k];
                 }
 
-                function newFunction($array){
+                function newFunction($input){
                     for($i = 0; $i < 5; $i++){
-                        $array[$i] = substr($array[$i], 0, 3);
+                        $array[$i] = substr($input[$i], 0, 3);
                     }
                 }
 
