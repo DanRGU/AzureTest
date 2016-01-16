@@ -9,9 +9,12 @@
 
 
                 <?php
-                $juice = 'apple';
-                echo "I drank some $juice juice";
-                echo 'I drank some $juice juice';
+               $a = 0;
+                $b= &$a;
+                $b++;
+                echo '$a == ',$a, '<br />';
+                $a--;
+                echo '$a == ',$b, '<br />';
  ?>
 
             </p>
