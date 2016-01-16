@@ -17,8 +17,8 @@
                     echo "$val<br />\n";
                 }
 
-                for($j = 0; $j < 5; $j++){
-                    echo $array[$j];
+                for($k= 0; $k < 5; $k++){
+                    echo $array[$k];
                 }
 
                 function newFunction($array){
