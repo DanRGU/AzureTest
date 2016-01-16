@@ -9,8 +9,9 @@
 
 
                 <?php
-             $arr = array("Monday","Tesuday","Wednesday", "Thursday","Friday");
-                for($k= 0; $k < 5; $k++){
+             $arr = array('Monday','Tesuday','Wednesday', 'Thursday','Friday');
+
+                for($k = 0; $k < 5; $k++){
                     echo $array[$k];
                 }
 
