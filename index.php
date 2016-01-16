@@ -10,13 +10,6 @@
 
                 <?php
              $arr = array("Monday","Tesuday","Wednesday", "Thursday","Friday");
-                while(list(, $val)=each($arr)){
-                    if($val=='stop'){
-                        break;
-                    }
-                    echo "$val<br />\n";
-                }
-
                 for($k= 0; $k < 5; $k++){
                     echo $array[$k];
                 }
