@@ -9,12 +9,13 @@
 
 
                 <?php
-               $a = 0;
-                $b= &$a;
-                $b++;
-                echo '$a == ',$a, '<br />';
-                $a--;
-                echo '$a == ',$b, '<br />';
+             $arr = array('one','two','three', 'four','stop','five');
+                while(list(, $val)=each($arr)){
+                    if($val=='stop'){
+                        break 1;
+                    }
+                    echo "$val<br />\n";
+                }
  ?>
 
             </p>
