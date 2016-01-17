@@ -13,14 +13,11 @@
 
                 function incr_a($inc)
                 {
-                    $a = 0;
                     $a = $a + $inc;
-                    return $a;
                 }
-
-                   $a = 0;
-                   $a = incr_a(10);
-                   echo $a;
+                $a = 0;
+                incr_a(10);
+                echo $a;
 
 
                 ?>
