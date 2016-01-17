@@ -17,9 +17,9 @@
                     $a = $a + $inc;
                     return $a;
                 }
-                
+
                    $a = 0;
-                   incr_a(10);
+                   $a = incr_a(10);
                    echo $a;
 
 
